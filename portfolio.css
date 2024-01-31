@@ -1,0 +1,210 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Leckerli One', cursive, serif;
+    /* border: 1px solid black; */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+.navbar-brand img,
+p,
+h1,
+h3,
+h5 {
+    font-family: 'Leckerli One', cursive, serif;
+}
+
+h1 {
+    line-height: 1;
+    font-weight: 500;
+}
+
+header {
+    position: sticky;
+}
+
+.nav-item,
+.nav-link {
+    font-size: 1.2em;
+    color: black;
+    font-weight: 500;
+    font-family: 'Leckerli One', cursive, serif;
+}
+
+.nav-link:hover {
+    border: 3px red;
+    border-style: none none solid none;
+    transition: border 0.2s ease-out;
+}
+
+.top-btn {
+    border: 2px solid red;
+    border-radius: 30px;
+    padding: 5px;
+    font-size: 1.1em;
+    text-decoration: none;
+    font-family: 'Leckerli One', cursive, serif;
+}
+
+.top-btn:hover {
+    font-size: 1.5em;
+    transition: all 0.3s ease-in-out;
+    background-color: tomato;
+}
+
+input {
+    background: none;
+}
+
+.back {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.container-fluid {
+    height: 100vh;
+    background-image: url(/image/bg4.png);
+    background-size: cover;
+    overflow: auto;
+}
+
+#home {
+    padding: 200px;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    display: flex;
+    flex: 1 1 100%;
+    justify-content: center;
+  
+}
+
+h1 {
+    text-shadow: 4px 4px 4px red;
+}
+
+.social svg {
+    border: 2px solid red;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.social svg:hover {
+    height: 40px;
+    width: 40px;
+    transition: all 0.3s ease-in-out;
+    background-color: tomato;
+}
+
+.edu {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 100px;
+    font-family: 'Leckerli One', cursive, serif;
+}
+
+.edu .tafila {
+    margin-top: 80px;
+}
+
+.edu h2,
+.course h2,
+.experiense1 h2,
+.contact1 h2 {
+    text-align: center;
+    padding-top: 100px;
+    text-shadow: 4px 4px 4px red;
+}
+
+.tafila {
+    text-align: center;
+}
+
+.scrollspy-example {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.course,
+.experiense1 {
+    height: 100%;
+}
+
+.course1 {
+    margin-top: 50px;
+    text-align: center;
+    height: 300px;
+    width: 300px;
+}
+
+.course1 img {
+    margin-bottom: 30px;
+    height: 190px;
+    width: 200px;
+    border-radius: 500px;
+}
+
+.course1 h4 {
+    text-decoration: underline;
+}
+
+.at {
+    border: 1px solid red;
+    background-color: tomato;
+    border-radius: 100px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.form * {
+    padding: 5px;
+}
+
+.form input,
+textarea {
+    outline: 1px solid black;
+    border: 1px solid red;
+}
+
+.form a {
+    text-decoration: none;
+    background-color: tomato;
+    font-size: 1.2em;
+    outline: 1px solid black;
+    border: 1px solid red;
+}
+
+.scrollspy-example1 {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.phone {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.navBar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-image: url(/image/nav.png);
+
+}
